@@ -4,6 +4,7 @@ template.innerHTML = /*html*/ `
     button {
       font-family: inherit;
       font-size: inherit;
+      background-color: #efefef;
       border: 2px solid #000;
       border-radius: 8px;
       padding: 6px 10px;

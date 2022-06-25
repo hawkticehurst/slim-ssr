@@ -21,7 +21,7 @@ export function Hello(req) {
       <body>
         ${Navbar()}
         <main>
-          <section class="about-container">
+          <section class="hello-container">
             <h1>Hello ${name ? name : 'Person'}</h1>
             <p>This page uses a URL parameter to render a greeting.</p>
             <p>
@@ -43,12 +43,12 @@ export const styles = css`
   h1 {
     font-size: 35px;
   }
-  .about-container {
+  .hello-container {
     width: 50%;
     margin: 4rem 0 1rem 0;
   }
   @media (max-width: 767px) {
-    .about-container {
+    .hello-container {
       width: 90%;
       margin: 4rem 1rem 1rem 1rem;
     }

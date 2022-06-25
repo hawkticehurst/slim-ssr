@@ -60,10 +60,6 @@ const styles = css`
   counter-button {
     margin: 1rem;
   }
-  #docs {
-    position: fixed;
-    bottom: 10px;
-  }
 
   ${NavbarStyles}
   ${WelcomeStyles}
