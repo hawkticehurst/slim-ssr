@@ -3,7 +3,7 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
   color: rgb(30, 30, 33);
-  background-color: #c994e9;
+  background: linear-gradient(217deg, #f2bfff, #e580ff);
   margin: 0;
   padding: 0;
 }
