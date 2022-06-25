@@ -31,8 +31,7 @@ export function About() {
             <h1>About</h1>
             <p>
               This is a demonstration of a minimal SSR framework written in 40
-              lines of code. This framework builds closely on top of modern web
-              standards and conventions.
+              lines of code.
             </p>
             <p>Features include:</p>
             <ul>
@@ -45,10 +44,16 @@ export function About() {
               building slim UIs––during the last few months.
             </p>
             <p>
+              The point of this demo is not to provide a feature complete
+              implementation of SSR, but to show that one can get shockingly far
+              with very little code by building on top of modern web standards
+              and conventions available in 2022.
+            </p>
+            <p>
               An in depth of write up on this SSR implementation can be found
               <a
                 href="https://hawkticehurst.com/writing/an-ssr-framework-in-40-lines-of-code"
-                >here</a
+                >here (coming soon)</a
               >.
             </p>
           </section>
