@@ -1,23 +1,25 @@
-# Slim SSR Experiment
+# Slim SSR
 
-A demonstration of a minimal SSR framework written in 40 lines of code (located in [`slim-ssr.js`](./slim-ssr.js)). This framework builds closely on top of modern web standards and conventions.
+A demonstration of a minimal SSR framework written in 40 lines of code (located in [`slim-ssr.js`](./slim-ssr.js)).
 
 Features include:
 
 - Ship zero JS by default
-- Expressive static components using template literal strings
+- Expressive static components and styling using template literal strings
 - Islands of interactivity with web components
 - No build step required
 - Zero config necessary with common sense defaults
 
 This implementation is based on the research, experimentation, and takeaways from work on [Delgada](https://delgada.dev)––a web framework for building slim UIs––during the last few months.
 
-An in depth of write up on this SSR implementation can be found [here](https://hawkticehurst.com/writing/an-ssr-framework-in-40-lines-of-code).
+The point of this demo is not to provide a feature complete implementation of SSR, but to show that one can get shockingly far with very little code by building on top of modern web standards and conventions available in 2022.
+
+An in depth of write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/an-ssr-framework-in-40-lines-of-code).
 
 ## Usage
 
 ```
-npx degit delgada-ui/slim-ssr slim-ssr-template
+npx degit hawkticehurst/slim-ssr slim-ssr-template
 cd slim-ssr-template
 npm install
 npm start
