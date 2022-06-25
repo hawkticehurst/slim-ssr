@@ -1,6 +1,6 @@
 # Slim SSR Experiment
 
-A demonstration of a minimal SSR framework written in 40 lines of code. This framework builds closely on top of modern web standards and conventions.
+A demonstration of a minimal SSR framework written in 40 lines of code (located in [`slim-ssr.js`](./slim-ssr.js)). This framework builds closely on top of modern web standards and conventions.
 
 Features include:
 
@@ -25,4 +25,4 @@ npm start
 
 ## License
 
-This is licensed under [MIT](./LICENSE). Feel free to use, remix, and adapt the code found the `slim.js` file in your own projects.
+This is licensed under [MIT](./LICENSE). Feel free to use, remix, and adapt the code found this repo in your own projects.
