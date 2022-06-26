@@ -14,7 +14,7 @@ This implementation is based on the research, experimentation, and takeaways fro
 
 The point of this demo is not to provide a feature complete implementation of SSR, but to show that one can get shockingly far with very little code by building on top of modern web standards and conventions available in 2022.
 
-An in depth of write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/an-ssr-framework-in-40-lines-of-code).
+An in depth of write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/a-ssr-framework-in-40-lines-of-code).
 
 ## Usage
 

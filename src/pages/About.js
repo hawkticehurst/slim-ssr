@@ -52,7 +52,7 @@ export function About() {
             <p>
               An in depth of write up on this SSR implementation can be found
               <a
-                href="https://hawkticehurst.com/writing/an-ssr-framework-in-40-lines-of-code"
+                href="https://hawkticehurst.com/writing/a-ssr-framework-in-40-lines-of-code"
                 >here (coming soon)</a
               >.
             </p>
