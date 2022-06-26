@@ -2,10 +2,10 @@ class CounterButton extends HTMLElement {
   constructor() {
     super();
     this._shadowRoot = this.attachShadow({ mode: 'open' });
-    this._render();
   }
 
   connectedCallback() {
+    this._render();
     this.count = this._shadowRoot.querySelector('#count');
     const counterButton = this._shadowRoot.querySelector('button');
     counterButton.addEventListener('click', this._increment.bind(this));
