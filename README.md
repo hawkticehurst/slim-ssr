@@ -1,6 +1,6 @@
 # Slim SSR
 
-A SSR implementation written in 37 lines of code.
+An implementation of a server-side rendering (SSR) web framework written in 37 lines of code.
 
 Features include:
 
