@@ -11,7 +11,7 @@ Features include:
 - Zero configuration
 - Even more stuff
 
-This implementation is based on the research, experimentation, and takeaways from work on [Delgada](https://delgada.dev)–– a web framework for building slim multipage websites.
+This implementation is based on the research, experimentation, and takeaways from work on [Delgada](https://delgada.dev) –– a web framework for building slim multipage websites.
 
 The point of this is not to provide a feature complete implementation of SSR by 2022 standards, but to show that one can get shockingly far with very little code by building on top of the web standards and conventions available today. Think of it as a celebration of the modern web and what it enables.
 
