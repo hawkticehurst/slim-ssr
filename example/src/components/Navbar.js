@@ -1,4 +1,4 @@
-import { html, css } from '../../slim-ssr.js';
+import { html, css } from 'slim-ssr';
 
 export function Navbar() {
   return html`

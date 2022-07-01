@@ -1,9 +1,9 @@
 # dependencies
-node_modules/
+node_modules
 
 # production
-dist/
-build/
+dist
+build
 
 # misc
 .DS_Store

@@ -1,12 +1,12 @@
-import { html, css } from '../../slim-ssr.js';
+import { html, css } from 'slim-ssr';
 import { Navbar, styles as NavbarStyles } from '../components/Navbar.js';
 
 const features = [
-  'Ship zero JS by default',
-  'Expressive static components and styling using template literal strings',
-  'Islands of interactivity with web components',
-  'No build step required',
-  'Zero config necessary with common sense defaults',
+  'Ship zero JavaScript by default',
+  'Expressive markup and styling using template literals',
+  'Island-based architecture via web components',
+  'No build step',
+  'Zero config',
 ];
 
 export function About() {
@@ -30,7 +30,7 @@ export function About() {
           <section class="about-container">
             <h1>About</h1>
             <p>
-              This is a demonstration of a minimal SSR framework written in 40
+              This is a demonstration of a minimal SSR framework written in 37
               lines of code.
             </p>
             <p>Features include:</p>
@@ -38,21 +38,9 @@ export function About() {
               ${features.map((feature) => html`<li>${feature}</li>`)}
             </ul>
             <p>
-              This implementation is based on the research, experimentation, and
-              takeaways from work on
-              <a href="https://delgada.dev">Delgada</a>––a web framework for
-              building slim UIs––during the last few months.
-            </p>
-            <p>
-              The point of this demo is not to provide a feature complete
-              implementation of SSR, but to show that one can get shockingly far
-              with very little code by building on top of modern web standards
-              and conventions available in 2022.
-            </p>
-            <p>
               An in depth of write up on this SSR implementation can be found
               <a
-                href="https://hawkticehurst.com/writing/a-ssr-framework-in-40-lines-of-code"
+                href="https://hawkticehurst.com/writing/a-ssr-framework-in-37-lines-of-code"
                 >here (coming soon)</a
               >.
             </p>

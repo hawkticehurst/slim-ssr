@@ -1,6 +1,6 @@
 {
-  "name": "slim-ssr",
-  "description": "A demo app for a SSR framework written in 40 lines of code.",
+  "name": "slim-ssr-example",
+  "description": "A demo app for Slim SSR.",
   "version": "1.0.0",
   "author": "Hawk Ticehurst <hawkticehurst@gmail.com>",
   "license": "MIT",
@@ -11,7 +11,8 @@
     "start": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "slim-ssr": "file:../slim-ssr"
   },
   "devDependencies": {
     "nodemon": "^2.0.18",

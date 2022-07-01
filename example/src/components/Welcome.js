@@ -1,4 +1,4 @@
-import { html, css } from '../../slim-ssr.js';
+import { html, css } from 'slim-ssr';
 
 export function Welcome({ name, link }) {
   return html`<h1>Welcome to <a href="${link}">${name}</a>!</h1>`;

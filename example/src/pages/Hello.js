@@ -1,4 +1,4 @@
-import { html, css } from '../../slim-ssr.js';
+import { html, css } from 'slim-ssr';
 import { Navbar, styles as NavbarStyles } from '../components/Navbar.js';
 
 export function Hello(req) {

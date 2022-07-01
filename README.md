@@ -1,27 +1,34 @@
 # Slim SSR
 
-A demonstration of a minimal SSR framework written in 40 lines of code (located in [`slim-ssr.js`](./slim-ssr.js)).
+A SSR implementation written in 37 lines of code.
 
 Features include:
 
-- Ship zero JS by default
-- Expressive static components and styling using template literal strings
-- Islands of interactivity with web components
-- No build step required
-- Zero config necessary with common sense defaults
+- Ship zero JavaScript by default
+- Expressive markup and styling using template literals
+- Island-based architecture via web components
+- No build step
+- Zero configuration
+- Even more stuff
 
-This implementation is based on the research, experimentation, and takeaways from work on [Delgada](https://delgada.dev)––a web framework for building slim UIs––during the last few months.
+This implementation is based on the research, experimentation, and takeaways from work on [Delgada](https://delgada.dev)–– a web framework for building slim multipage websites.
 
-The point of this demo is not to provide a feature complete implementation of SSR, but to show that one can get shockingly far with very little code by building on top of modern web standards and conventions available in 2022.
+The point of this is not to provide a feature complete implementation of SSR by 2022 standards, but to show that one can get shockingly far with very little code by building on top of the web standards and conventions available today. Think of it as a celebration of the modern web and what it enables.
 
-An in depth of write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/a-ssr-framework-in-40-lines-of-code).
+An in depth of write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/a-ssr-framework-in-37-lines-of-code).
 
 ## Usage
 
-```
-npx degit hawkticehurst/slim-ssr slim-ssr-template
-cd slim-ssr-template
-npm install
+To test out the example app, clone this repo locally and run the following commands.
+
+```bash
+# Install slim-ssr dependencies
+cd slim-ssr && npm install && cd ..
+
+# Install example dependencies
+cd example && npm install
+
+# Start example server
 npm start
 ```
 

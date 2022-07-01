@@ -1,0 +1,13 @@
+{
+  "name": "slim-ssr",
+  "description": "A SSR framework written in 37 lines of code.",
+  "version": "1.0.0",
+  "author": "Hawk Ticehurst <hawkticehurst@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "peerDependencies": {
+    "express": "^4.18.1"
+  }
+}
