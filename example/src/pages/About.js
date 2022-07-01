@@ -30,7 +30,7 @@ export function About() {
           <section class="about-container">
             <h1>About</h1>
             <p>
-              This is a demonstration of a minimal SSR framework written in 37
+              This is a demonstration of a server-side rendering (SSR) web framework that is implemented with 37
               lines of code.
             </p>
             <p>Features include:</p>
@@ -41,7 +41,7 @@ export function About() {
               An in depth of write up on this SSR implementation can be found
               <a
                 href="https://hawkticehurst.com/writing/a-ssr-framework-in-37-lines-of-code"
-                >here (coming soon)</a
+                >here</a
               >.
             </p>
           </section>

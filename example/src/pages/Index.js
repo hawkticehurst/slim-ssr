@@ -21,7 +21,7 @@ export function Index() {
       <body>
         ${Navbar()}
         <main>
-          ${Welcome({ name: 'Slim SSR', link: '/' })}
+          ${Welcome({ name: 'Slim SSR', link: 'https://github.com/hawkticehurst/slim-ssr' })}
           <p>Get started by editing <code>src/pages/Index.js</code></p>
           <counter-button>
             <button disabled>Clicked 0 times</button>
