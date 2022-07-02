@@ -32,6 +32,14 @@ cd example && npm install
 npm start
 ```
 
+## A note on developer experience
+
+For a drastically improved developer experience, install the [lit-html](https://marketplace.visualstudio.com/items?itemName=bierner.lit-html) and [es6-string-html](https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html) VS Code extensions. 
+
+They make a world of difference while writing component markup/styles in tagged templates. They can be used to add a ton of helpful features like syntax highlighting, quick hover info, HTML tag folding, and so on.
+
+[Emmet](https://emmet.io/) support can also be enabled in tagged templates by changing the "Emmet: Include Languages" setting in VS Code. I recommend adding mappings for `"javascript": "html"` and `"typescript": "html"`.
+
 ## License
 
 This is licensed under [MIT](./LICENSE). Feel free to use, remix, and adapt the code found this repo in your own projects.
