@@ -23,10 +23,10 @@ export function register(app, routes, options) {
 export function html(strings, ...values) {
   const parts = [strings[0]];
   for (let i = 0; i < values.length; i++) {
-    if (typeof values[i] === 'object') {
-      values[i].map((value) => {
+    if (Array.isArray(values[i])) {
+      for (const value of values[i]) {
         parts.push(String(value));
-      });
+      }
     } else {
       parts.push(String(values[i]));
     }
