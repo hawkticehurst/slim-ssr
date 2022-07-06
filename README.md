@@ -2,7 +2,7 @@
 
 An implementation of a server-side rendering (SSR) web framework written in 37 lines of code.
 
-An in depth write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/a-ssr-framework-in-37-lines-of-code).
+An in depth write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/an-ssr-framework-in-37-lines-of-code).
 
 Features include:
 
