@@ -1,6 +1,6 @@
 {
   "name": "slim-ssr-demo",
-  "description": "A demo app for Slim SSR.",
+  "description": "A demo website made with Slim SSR.",
   "version": "1.0.0",
   "author": "Hawk Ticehurst <hawkticehurst@gmail.com>",
   "license": "MIT",
