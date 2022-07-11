@@ -7,11 +7,10 @@ An in depth write up on this SSR implementation can be found [here (coming soon)
 Features include:
 
 - Ship zero JavaScript by default
-- Expressive markup and styling using template literals
+- Expressive markup and styling using tagged templates
 - Island-based architecture via web components
 - No build step
 - Zero configuration
-- Even more stuff
 
 This implementation is based on the research, experimentation, and takeaways from work on [Delgada](https://delgada.dev) –– a web framework for building slim multipage websites.
 
