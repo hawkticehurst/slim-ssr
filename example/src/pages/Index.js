@@ -24,7 +24,7 @@ export function Index() {
           ${Welcome({ name: 'Slim SSR', link: 'https://github.com/hawkticehurst/slim-ssr' })}
           <p>Get started by editing <code>src/pages/Index.js</code></p>
           <counter-button>
-            <button disabled>Clicked 0 times</button>
+            <button>Clicked <span id="count">0</span> times</button>
           </counter-button>
         </main>
       </body>
@@ -33,19 +33,18 @@ export function Index() {
 }
 
 const styles = css`
-  button {
+  counter-button:not(:defined) button {
     font-family: inherit;
     font-size: inherit;
-    background-color: #efefef;
+    background-color: #dedede;
+    color: darkgrey;
     border: 2px solid #000;
     border-radius: 8px;
     padding: 6px 10px;
   }
-  button:hover,
-  button:focus {
-    cursor: pointer;
+  counter-button:not(:defined) button:hover {
+    cursor: not-allowed;
     outline: none;
-    background-color: #e6e6e6;
   }
   p {
     text-align: center;

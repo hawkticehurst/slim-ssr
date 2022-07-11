@@ -1,6 +1,6 @@
 class CounterButton extends HTMLElement {
   static styles = /* css */ `
-    button {
+    ::slotted(button) {
       font-family: inherit;
       font-size: inherit;
       background-color: #efefef;
@@ -8,8 +8,8 @@ class CounterButton extends HTMLElement {
       border-radius: 8px;
       padding: 6px 10px;
     }
-    button:hover,
-    button:focus {
+    ::slotted(button:hover),
+    ::slotted(button:focus) {
       cursor: pointer;
       outline: none;
       background-color: #e6e6e6;
@@ -23,9 +23,9 @@ class CounterButton extends HTMLElement {
 
   connectedCallback() {
     this.render();
-    this.count = this.shadow.querySelector('#count');
-    const counterButton = this.shadow.querySelector('button');
+    const counterButton = this.shadow.querySelector('slot').assignedElements()[0];
     counterButton.addEventListener('click', this.increment.bind(this));
+    this.count = counterButton.querySelector('#count');
   }
 
   render() {
@@ -34,7 +34,7 @@ class CounterButton extends HTMLElement {
       <style>
         ${CounterButton.styles}
       </style>
-      <button>Clicked <span id="count">0</span> times</button>
+      <slot></slot>
     `;
     this.shadow.appendChild(template.content.cloneNode(true));
   }

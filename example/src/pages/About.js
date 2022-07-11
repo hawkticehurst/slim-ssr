@@ -3,7 +3,7 @@ import { Navbar, styles as NavbarStyles } from '../components/Navbar.js';
 
 const features = [
   'Ship zero JavaScript by default',
-  'Expressive markup and styling using template literals',
+  'Expressive markup and styling using tagged templates',
   'Island-based architecture via web components',
   'No build step',
   'Zero config',

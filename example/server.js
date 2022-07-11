@@ -16,7 +16,7 @@ const islands = ['CounterButton.js'];
 
 register(app, routes, { islands });
 
-const port = 3000;
+const port = 4000;
 app.listen(port, () => {
   console.log(`Listening on http://localhost:${port}`);
 });

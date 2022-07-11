@@ -22,7 +22,7 @@ export function Hello(req) {
         ${Navbar()}
         <main>
           <section class="hello-container">
-            <h1>Hello ${name ? name : 'Person'}</h1>
+            <h1>Hello ${name ?? 'Person'}</h1>
             <p>This page uses a URL parameter to render a greeting.</p>
             <p>
               Add a name to the end of the URL above in the form
