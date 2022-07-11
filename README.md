@@ -19,16 +19,16 @@ The point of this is not to provide a feature complete implementation of SSR by 
 
 ## Usage
 
-To test out the example app, clone this repo locally and run the following commands.
+To test out the demo app, clone this repo locally and run the following commands.
 
 ```bash
 # Install slim-ssr dependencies
 cd slim-ssr && npm install && cd ..
 
-# Install example dependencies
-cd example && npm install
+# Install demo dependencies
+cd demo && npm install
 
-# Start example server
+# Start demo server
 npm start
 ```
 
