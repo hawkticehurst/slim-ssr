@@ -2,7 +2,7 @@
 
 An implementation of a server-side rendering (SSR) web framework written in 37 lines of code.
 
-An in depth write up on this SSR implementation can be found [here (coming soon)](https://hawkticehurst.com/writing/an-ssr-framework-in-37-lines-of-code).
+An in-depth write-up on this SSR implementation can be found [here](https://hawkticehurst.com/writing/an-ssr-framework-in-37-lines-of-code).
 
 Features include:
 
@@ -41,4 +41,4 @@ They make a world of difference while writing component markup/styles in tagged 
 
 ## License
 
-This is licensed under [MIT](./LICENSE). Feel free to use, remix, and adapt the code found this repo in your own projects.
+This is licensed under [MIT](./LICENSE). Feel free to use, remix, and adapt the code found in this repo in your projects.
